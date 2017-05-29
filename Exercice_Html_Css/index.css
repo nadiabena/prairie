@@ -1,0 +1,78 @@
+*{
+	background-color: #808080;
+}
+
+@font-face {
+	font-family: "Pacifico";
+	src: url('Pacifico.ttf');
+}
+
+p:hover{
+	/*text-decoration: none;
+	background-color: yellow; 
+*/
+    /*top:-230px;
+    right:-330px;
+    padding-bottom:200px;
+    padding-left:300px
+*/
+	/*-moz-transform: rotate(-20deg);
+*/
+
+   /* transform:rotate(7deg); */
+    -ms-transform:rotate(-20deg); /* IE 9 */
+    -moz-transform:rotate(-20deg); /* Firefox */
+    -webkit-transform:rotate(-20deg); /* Safari and Chrome */
+    -o-transform:rotate(-20deg); /* Opera */
+
+	/*-moz-transform: rotate(720deg);*/
+	
+}
+
+.circle_white{
+    margin:10px;
+    width:100px;
+    background:white;
+    height:100px;
+    text-align:center;
+    border-radius:100px;
+    line-height: 90px; /* 100 - 10 */
+    background-image: linear-gradient(red, yellow, green, blue, violet);
+    /*background: -moz-linear-gradient(red, yellow); */ /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(red, yellow); */ /* Standard syntax */
+}
+
+.circle{
+	background-size: cover;
+    margin:10px;
+    width:500px;
+    height:500px;
+    text-align:center;
+    border-radius:100%;
+    background-image: url("file:///home/user/Documents/Exercices_Html_Css/cat.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+h1{
+	font-family: "Pacifico", sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 320px;
+    height: 240px;
+}
+
+.container .caption {
+    /*position: absolute;
+    bottom: 0;
+    left: 0; */
+
+    position: absolute;
+    bottom: 50;
+    left: 50;
+
+	background-image: url("file:///home/user/Documents/Exercices_Html_Css/cat.jpg");
+}
+
